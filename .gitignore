@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DVC cache
+.dvc/cache/
+
+# Trained model files
+*.h5
+*.keras
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python environment files
+.env
