@@ -26,3 +26,8 @@ Thumbs.db
 
 # Python environment files
 .env
+
+
+.dvc/tmp/
+*credentials*.json
+client_secret*.json
