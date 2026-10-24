@@ -1,4 +1,4 @@
-# change the first line for conflict
+#I  changed the first line for conflict
 # 👗 Fashion-MNIST ANN — End-to-End ML Versioning Pipeline
 
 > **End-to-End Machine Learning Versioning with Git, DVC & Google Drive**
