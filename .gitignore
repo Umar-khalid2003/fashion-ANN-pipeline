@@ -31,3 +31,4 @@ Thumbs.db
 .dvc/tmp/
 *credentials*.json
 client_secret*.json
+/models
