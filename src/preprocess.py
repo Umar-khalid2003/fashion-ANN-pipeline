@@ -8,8 +8,8 @@ params = yaml.safe_load(open("params.yaml"))["preprocess"]
 
 raw = np.load("data/raw/fashion_mnist_raw.npz")
 # Normalize pixel values from [0, 255] to [0, 1]
-x_train = raw["x_train"].astype("float32") / 255.0   # normalize to [0, 1]
-x_test = raw["x_test"].astype("float32") / 255.0
+x_train = raw["x_train"].astype("float32") / 127.5 - 1.0   # scale to [-1, 1]
+x_test = raw["x_test"].astype("float32") / 127.5 - 1.0
 
 x_tr, x_val, y_tr, y_val = train_test_split(
     x_train, raw["y_train"],
